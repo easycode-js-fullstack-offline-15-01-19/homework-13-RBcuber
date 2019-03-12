@@ -1,0 +1,42 @@
+body {
+    background: #27ae61;
+}
+ 
+ul {
+    padding: 0;
+}
+ul li {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}    
+.dropdown-menu {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      background: #198747;
+      height: 80px;
+}
+.dropdown-menu li {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.dropdown-menu li ul {
+    background: #9a59b5;
+}  
+.dropdown-menu ul {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 215px;   
+}
